@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Phaser Raycaster Demo</title>
+
+        <link type="text/css" href="css/main.css" rel="stylesheet" />
+        <script src="js/phaser.min.2.0.5.js" type="text/javascript"></script>
+        <script src="js/BlurX.js" type="text/javascript"></script>
+        <script src="js/BlurY.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/raycaster.js?version=0.3"></script>
+
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+
+            <div id="container"></div>
+            <div id="settings">
+                <input type="checkbox" id="chkTextures" value="true" checked="checked" />
+                <label for="chkTextures">textures</label>
+
+                <input type="checkbox" id="chkLighting" value="true" checked="checked" />
+                <label for="chkLighting">lighting</label>
+
+                <input type="checkbox" id="chkShadow" value="true" checked="checked" />
+                <label for="chkShadow">shadow</label>
+            </div>
+
+
+
+            <div id="debug"></div>
+            <script>
+                var debug = document.getElementById('debug');
+
+            </script>
+
+        </div>
+
+    </body>
+</html>
